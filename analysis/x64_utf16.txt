@@ -1,0 +1,696 @@
+!%),.:;>?]}
+..\..\FOCAL\Generic\font.cpp
+p == font_chars_required_count
+old_length == 0
+P:\Projects\FOCAL\FOCAL\include\stb_image.c
+req_comp >= 1 && req_comp <= 4
+(((j->code_buffer) >> (j->code_bits - h->size[c])) & bmask[h->size[c]]) == h->code[c]
+bits <= 16
+sizes[i] <= (1 << i)
+sz->code_buffer < (1U << z->num_bits)
+z->size[b] == s
+c >= 0 && c < 19
+c == 18
+a->num_bits == 0
+out_n == s->img_n || out_n == s->img_n+1
+img_n+1 == out_n
+out_n == 2 || out_n == 4
+Ehsz == 108
+P:\Projects\FOCAL\FOCAL\include\stb_vorbis.c
+c->sorted_entries == 0
+available[y] == 0
+len != NO_CODE
+k == c->sorted_entries
+c->sorted_codewords[x] == code
+pow((float) r+1, dim) > entries
+(int) floor(pow((float) r, dim)) <= entries
+f->bytes_in_seg == 0
+f->bytes_in_seg > 0
+c->sorted_codewords || c->codewords
+!c->sparse
+z < c->sorted_entries
+!c->sparse || z < c->sorted_entries
+(n & 3) == 0
+f->alloc.alloc_buffer_length_in_bytes == f->temp_offset
+f->temp_offset == f->alloc.alloc_buffer_length_in_bytes
+header[0] == 'O' && header[1] == 'g' && header[2] == 'g' && header[3] == 'S'
+frames_to_skip >= 0
+target_sample > frame_start
+f->channel_buffer_start + (int) (target_sample-frame_start) < f->channel_buffer_end
+buf_c == 2
+\\.\root\cimv2
+Win32_PNPEntity
+DeviceID
+VID_%4X
+PID_%4X
+..\..\FOCAL\Win32\dx9quadrender.cpp
+image/png
+..\..\FOCAL\Win32\threads.c
+res != NULL
+err != FALSE
+err == WAIT_OBJECT_0
+..\DX9\Focal_UM_2Dbg.cpp
+0 && "DrawArcade()!!!"
+..\DX9\xb_dvd.cpp
+mainBuffer != NULL
+extfBuffer != NULL
+OutBuffer != NULL
+..\Filters\DX9\BG2_Shaders.cpp
+!FAILED(hr)
+Response from Steam Client
+ !"#$%*+,-./0123456789:;<=>?@ABCDEFGHIJKLMNOPQRRSSSSTUVWWXXXXYZ[\\]]]]^_`aabbbbcdefghijklmno
+ !"#$%*+,
+9:;<=>?@ABCDEFGHIJKL
+ !"#$%&'()*+,-./0123456789:;<=>?@ABCDEFGHIJKLMNOPQRSTUVWXYZ[\]^_`abcdefghijklmnopqrstuvwxyz{|}~
+DDDDDD
+oooooo
+08<@DHL
+#<%>=?@$9&5':)*.84+7:):3(
+xxxxxxx
+xxxxxx
+xxxxxxxxx
+xxxxx
+xxxxxxxx
+xx<xxxxxxxTx
+xxxxxxxxxx
+xxSxx]<xxxxxxxx
+o)?)?)_
+$"$000
+ $(,00
+4??3?33?33
+0<,@0
+-05+(+(7!(+#----0+&((0+-2(-2-+-2++0+(++2-------+#------+-------
+@8P8884888888848888X0@88@PP8@888888888888888888888888888888888888
+@8P8884888888848888X0@88@PP8@8888888888888
+00///.0/&&/'0''0.'00
+ejkstvx
+RS[\demnTU]^fgopVW_`hiqrxxyyzz{{
+B876ML
+``bbhhaacchh
+hh`abc
+ABCDABAB
+&3,4+
+$%&3(29;<=>
+(291%;=>7
+&3(29%;<=>
+%&3=>
+%&,-789:;<=>?@
+QRVWXYZ
+fghijkl
+ !"$&'()*+-.0
+ !#%&'()*,-/0123456
+789:;<<
+9=>?@AB*+,-./0123456789:;<=>?@ABCDEFGHI
+ !"#$%&'()
+ !"#$%&'()S6UW,->.I/E0FGHB<13@4A=7CX2YDV
+mnopqrstuvwxyz{|}~
+..\src\sound.cpp
+0 == i2 || 1 == i2
+NHW_INST(P_ACX_NO)[i2] < 0x40
+Q!Q1QAQQQaQqQ
+&'(678FGHVWXfghvwx
+)*+9:;IJKYZ[ijkyz{
+ !"#-./0123=>?@ABCMNOPQRS]_^`abcmnopqrs}~
+BCDEFGHIJK
+()*+,-./0123456789:;<=>?@ABCDEFGHIJK'
+PQRSTUVWXYZ[\]^_`abcdefghijkmoqrstuvwxyz{|}~
+ "$&(
+)*+,-./01234567
+89:;<=>?@AEFG
+"0>LZhv
+%&'012;<=FGHQRS\]^ghi
+ !"#()*+,-.3456789>?@ABCDIJKLMNOTUVWXYZ_`abcdejklmnop
+,-./BCDEWXYZlmno
+()*+,-./01
+&0:DNXb
+'1;EOYc
+()*,2346<=>@FGHJPQRTZ[\^defh
+ !&'(-./456;<=BCDIJK
+#$%*+,12389:?@AFGH
+&'()*+,-./0123456789:;<=>?@ABCDEFGHIJKLMNOPQRSTUVWXYZ[\]
+lmnopqrstuvwxyz{|}~
+lnprtv
+89:;<=
+"! .-,
+#$%/01
+&'(234
+)*+567
+ !"#$%&'()*+,-./0123456789:;<=>?@ABCDEFGHIPQRSTUVWXYZ[\]^_`abcdefghijklmnopqrstuvwxyz{|}~
+JKLMNO
+5%5&5'5(5@5A5B5
+E$E&E
+F!F FAF
+L%L&L'L(L@LALBL
+ s"v!v
+k k!k&kAk
+%$_"2
+"8=H$
+m%2(_"'Z
+82()$
+_"2(<
+>=M_"
+bau>'
+frh=H5
+frh=H
+"8D\=
+ \bi$
+698(H5
+182(H
+$=D\'
+_"/:5
+<!O8('
+98D\'Z
+9'Z=H5
+$9'Z(
+38D\$
+>$_#6=
+()bbf
+$_"8$
+$=",K2'
+98=$6
+_"()$W
+.H.HH$
+2*#!c
++++++
+b \=)
+8=D\'Z5
+ ^_#g
+-_-_-
+%)$6$
+a$2($=K$
+mK.#.82=H
+$="p|$
+=$2=D\$
+<$18$_
+82($6
+#9 \_
+_"3_"5
+%$9_"
+ ^_#)
+=$=D\
+<4H'"
+Kapl%
+/"Z%5[
+"385[
+7'Z$W
+) \=#
+9"=D\'
+bgKbun$e
+_"8=H5
+_"/'Z
+!=D\'Z5
+)VMR9
+kernel32.dll
+advapi32
+api-ms-win-core-fibers-l1-1-1
+api-ms-win-core-synch-l1-2-0
+kernel32
+minkernel\crts\ucrt\inc\corecrt_internal_strtox.h
+__crt_strtox::floating_point_value::as_double
+_is_double
+__crt_strtox::floating_point_value::as_float
+!_is_double
+INITY
+inity
+SNAN)
+snan)
+IND)ind)
+Microsoft Visual C++ Runtime Library
+Assertion failed: %Ts, file %Ts, line %d
+Assertion failed!
+Program: 
+File: 
+Line: 
+Expression: 
+sFor information on how your program can cause an assertion
+failure, see the Visual C++ documentation on asserts
+(Press Retry to debug the application - JIT must be enabled)
+<program name unknown>
+(null)
+mscoree.dll
+Runtime Error!
+LC_ALL
+LC_COLLATE
+LC_CTYPE
+LC_MONETARY
+LC_NUMERIC
+LC_TIME
+msvcrt.dll
+         (((((                  H
+      (                          
+Sunday
+Monday
+Tuesday
+Wednesday
+Thursday
+Friday
+Saturday
+January
+February
+March
+April
+August
+September
+October
+November
+December
+MM/dd/yy
+dddd, MMMM dd, yyyy
+HH:mm:ss
+en-US
+UTF-8
+UTF-16LEUNICODE
+api-ms-win-appmodel-runtime-l1-1-1
+api-ms-win-core-datetime-l1-1-1
+api-ms-win-core-file-l2-1-1
+api-ms-win-core-localization-l1-2-1
+api-ms-win-core-localization-obsolete-l1-2-0
+api-ms-win-core-processthreads-l1-1-2
+api-ms-win-core-string-l1-1-0
+api-ms-win-core-sysinfo-l1-2-1
+api-ms-win-core-winrt-l1-1-0
+api-ms-win-core-xstate-l2-1-0
+api-ms-win-rtcore-ntuser-window-l1-1-0
+api-ms-win-security-systemfunctions-l1-1-0
+ext-ms-win-kernel32-package-current-l1-1-0
+ext-ms-win-ntuser-dialogbox-l1-1-0
+ext-ms-win-ntuser-windowstation-l1-1-0
+user32
+ja-JP
+zh-CN
+ko-KR
+zh-TW
+american
+american english
+american-english
+australian
+belgian
+canadian
+chinese
+chinese-hongkong
+chinese-simplified
+chinese-singapore
+chinese-traditional
+dutch-belgian
+english-american
+english-aus
+english-belize
+english-can
+english-caribbean
+english-ire
+english-jamaica
+english-nz
+english-south africa
+english-trinidad y tobago
+english-uk
+english-us
+english-usa
+french-belgian
+french-canadian
+french-luxembourg
+french-swiss
+german-austrian
+german-lichtenstein
+german-luxembourg
+german-swiss
+irish-english
+italian-swiss
+norwegian
+norwegian-bokmal
+norwegian-nynorsk
+portuguese-brazilian
+spanish-argentina
+spanish-bolivia
+spanish-chile
+spanish-colombia
+spanish-costa rica
+spanish-dominican republic
+spanish-ecuador
+spanish-el salvador
+spanish-guatemala
+spanish-honduras
+spanish-mexican
+spanish-modern
+spanish-nicaragua
+spanish-panama
+spanish-paraguay
+spanish-peru
+spanish-puerto rico
+spanish-uruguay
+spanish-venezuela
+swedish-finland
+swiss
+america
+britain
+china
+czech
+england
+great britain
+holland
+hong-kong
+new-zealand
+pr china
+pr-china
+puerto-rico
+slovak
+south africa
+south korea
+south-africa
+south-korea
+trinidad & tobago
+united-kingdom
+united-states
+zh-CHS
+ar-SA
+bg-BG
+ca-ES
+cs-CZ
+da-DK
+de-DE
+el-GR
+fi-FI
+fr-FR
+he-IL
+hu-HU
+is-IS
+it-IT
+nl-NL
+nb-NO
+pl-PL
+pt-BR
+ro-RO
+ru-RU
+hr-HR
+sk-SK
+sq-AL
+sv-SE
+th-TH
+tr-TR
+ur-PK
+id-ID
+uk-UA
+be-BY
+sl-SI
+et-EE
+lv-LV
+lt-LT
+fa-IR
+vi-VN
+hy-AM
+az-AZ-Latn
+eu-ES
+mk-MK
+tn-ZA
+xh-ZA
+zu-ZA
+af-ZA
+ka-GE
+fo-FO
+hi-IN
+mt-MT
+se-NO
+ms-MY
+kk-KZ
+ky-KG
+sw-KE
+uz-UZ-Latn
+tt-RU
+bn-IN
+pa-IN
+gu-IN
+ta-IN
+te-IN
+kn-IN
+ml-IN
+mr-IN
+sa-IN
+mn-MN
+cy-GB
+gl-ES
+kok-IN
+syr-SY
+div-MV
+quz-BO
+ns-ZA
+mi-NZ
+ar-IQ
+de-CH
+en-GB
+es-MX
+fr-BE
+it-CH
+nl-BE
+nn-NO
+pt-PT
+sr-SP-Latn
+sv-FI
+az-AZ-Cyrl
+se-SE
+ms-BN
+uz-UZ-Cyrl
+quz-EC
+ar-EG
+zh-HK
+de-AT
+en-AU
+es-ES
+fr-CA
+sr-SP-Cyrl
+se-FI
+quz-PE
+ar-LY
+zh-SG
+de-LU
+en-CA
+es-GT
+fr-CH
+hr-BA
+smj-NO
+ar-DZ
+zh-MO
+de-LI
+en-NZ
+es-CR
+fr-LU
+bs-BA-Latn
+smj-SE
+ar-MA
+en-IE
+es-PA
+fr-MC
+sr-BA-Latn
+sma-NO
+ar-TN
+en-ZA
+es-DO
+sr-BA-Cyrl
+sma-SE
+ar-OM
+en-JM
+es-VE
+sms-FI
+ar-YE
+en-CB
+es-CO
+smn-FI
+ar-SY
+en-BZ
+es-PE
+ar-JO
+en-TT
+es-AR
+ar-LB
+en-ZW
+es-EC
+ar-KW
+en-PH
+es-CL
+ar-AE
+es-UY
+ar-BH
+es-PY
+ar-QA
+es-BO
+es-SV
+es-HN
+es-NI
+es-PR
+zh-CHT
+af-za
+ar-ae
+ar-bh
+ar-dz
+ar-eg
+ar-iq
+ar-jo
+ar-kw
+ar-lb
+ar-ly
+ar-ma
+ar-om
+ar-qa
+ar-sa
+ar-sy
+ar-tn
+ar-ye
+az-az-cyrl
+az-az-latn
+be-by
+bg-bg
+bn-in
+bs-ba-latn
+ca-es
+cs-cz
+cy-gb
+da-dk
+de-at
+de-ch
+de-de
+de-li
+de-lu
+div-mv
+el-gr
+en-au
+en-bz
+en-ca
+en-cb
+en-gb
+en-ie
+en-jm
+en-nz
+en-ph
+en-tt
+en-us
+en-za
+en-zw
+es-ar
+es-bo
+es-cl
+es-co
+es-cr
+es-do
+es-ec
+es-es
+es-gt
+es-hn
+es-mx
+es-ni
+es-pa
+es-pe
+es-pr
+es-py
+es-sv
+es-uy
+es-ve
+et-ee
+eu-es
+fa-ir
+fi-fi
+fo-fo
+fr-be
+fr-ca
+fr-ch
+fr-fr
+fr-lu
+fr-mc
+gl-es
+gu-in
+he-il
+hi-in
+hr-ba
+hr-hr
+hu-hu
+hy-am
+id-id
+is-is
+it-ch
+it-it
+ja-jp
+ka-ge
+kk-kz
+kn-in
+kok-in
+ko-kr
+ky-kg
+lt-lt
+lv-lv
+mi-nz
+mk-mk
+ml-in
+mn-mn
+mr-in
+ms-bn
+ms-my
+mt-mt
+nb-no
+nl-be
+nl-nl
+nn-no
+ns-za
+pa-in
+pl-pl
+pt-br
+pt-pt
+quz-bo
+quz-ec
+quz-pe
+ro-ro
+ru-ru
+sa-in
+se-fi
+se-no
+se-se
+sk-sk
+sl-si
+sma-no
+sma-se
+smj-no
+smj-se
+smn-fi
+sms-fi
+sq-al
+sr-ba-cyrl
+sr-ba-latn
+sr-sp-cyrl
+sr-sp-latn
+sv-fi
+sv-se
+sw-ke
+syr-sy
+ta-in
+te-in
+th-th
+tn-za
+tr-tr
+tt-ru
+uk-ua
+ur-pk
+uz-uz-cyrl
+uz-uz-latn
+vi-vn
+xh-za
+zh-chs
+zh-cht
+zh-cn
+zh-hk
+zh-mo
+zh-sg
+zh-tw
+zu-za
+CONOUT$
+#+3;CScs
+#q$%&'()*+
+$%&'()*+,-./0
+$%KPQqvw
+"#INOotu
+ &'LRSrxy
+!"#$%&'83(
+h/&k&
+hk&t&
+i ,T,
+j BWB
+jPLpL
+kYW`W
+k XfX
+k0\g\
+k$]6]

@@ -1,0 +1,100 @@
+imageBase=0x140000000
+entry=0x140584AFC
+section .text va=0x1000 raw=0x400 rawSize=0x5E9C00 virtSize=0x5E9B3C
+section .rdata va=0x5EB000 raw=0x5EA000 rawSize=0xD7A00 virtSize=0xD78A2
+section .data va=0x6C3000 raw=0x6C1A00 rawSize=0x202000 virtSize=0x3A381C4
+section .pdata va=0x40FC000 raw=0x8C3A00 rawSize=0x65E00 virtSize=0x65C04
+section .gfids va=0x4162000 raw=0x929800 rawSize=0x200 virtSize=0x1DC
+section .tls va=0x4163000 raw=0x929A00 rawSize=0x200 virtSize=0x9
+section _RDATA va=0x4164000 raw=0x929C00 rawSize=0x1800 virtSize=0x1750
+section .rsrc va=0x4166000 raw=0x92B400 rawSize=0x47E00 virtSize=0x47DF0
+
+imports of interest:
+  WINMM.dll!PlaySoundA iatRva=0x5EB648
+  KERNEL32.dll!FindFirstFileExW iatRva=0x5EB088
+  KERNEL32.dll!FindFirstFileExA iatRva=0x5EB090
+  KERNEL32.dll!FlushFileBuffers iatRva=0x5EB098
+  KERNEL32.dll!DeleteFileW iatRva=0x5EB0A0
+  KERNEL32.dll!CreateDirectoryW iatRva=0x5EB0B0
+  KERNEL32.dll!SetFilePointerEx iatRva=0x5EB0F8
+  KERNEL32.dll!WriteFile iatRva=0x5EB140
+  KERNEL32.dll!ReadFile iatRva=0x5EB150
+  KERNEL32.dll!GetModuleFileNameW iatRva=0x5EB168
+  KERNEL32.dll!GetModuleFileNameA iatRva=0x5EB170
+  KERNEL32.dll!GetFileType iatRva=0x5EB178
+  KERNEL32.dll!CreateThread iatRva=0x5EB1E0
+  KERNEL32.dll!FindNextFileW iatRva=0x5EB238
+  KERNEL32.dll!CreateSemaphoreA iatRva=0x5EB260
+  KERNEL32.dll!CreateDirectoryA iatRva=0x5EB270
+  KERNEL32.dll!CreateProcessA iatRva=0x5EB280
+  KERNEL32.dll!CreateEventA iatRva=0x5EB2C0
+  KERNEL32.dll!FindFirstFileA iatRva=0x5EB330
+  KERNEL32.dll!FindNextFileA iatRva=0x5EB338
+  KERNEL32.dll!RtlPcToFileHeader iatRva=0x5EB370
+  KERNEL32.dll!GetSystemTimeAsFileTime iatRva=0x5EB388
+  KERNEL32.dll!CreateEventW iatRva=0x5EB3B0
+  KERNEL32.dll!SetEndOfFile iatRva=0x5EB400
+  KERNEL32.dll!CreateFileW iatRva=0x5EB450
+
+needle 'BGM/UM48000Hz/BGM15' fileOff=0x7C6068
+  rva=0x7C7668 va=0x1407C7668
+  qword xrefs: 0
+  rip-lea: none
+
+needle 'BGM/UM48000Hz/BGM41' fileOff=0x7C8220
+  rva=0x7C9820 va=0x1407C9820
+  qword xrefs: 0
+  rip-lea: none
+
+needle 'BGM/UM48000Hz/BGM42' fileOff=0x7C836C
+  rva=0x7C996C va=0x1407C996C
+  qword xrefs: 0
+  rip-lea: none
+
+needle 'BGM/UM48000Hz/BGM01' fileOff=0x7C4F8C
+  rva=0x7C658C va=0x1407C658C
+  qword xrefs: 0
+  rip-lea: none
+
+needle 'BGM/UM48000Hz/BGM12' fileOff=0x7C5DD0
+  rva=0x7C73D0 va=0x1407C73D0
+  qword xrefs: 0
+  rip-lea: none
+
+needle 'BGM/48000Hz/21' fileOff=0x7C84B8
+  rva=0x7C9AB8 va=0x1407C9AB8
+  qword xrefs: 0
+  rip-lea: none
+
+needle 'BGM/48000Hz/dummy' fileOff=0x7CC2F8
+  rva=0x7CD8F8 va=0x1407CD8F8
+  qword xrefs: 0
+  rip-lea: none
+
+needle '%sdata/%s.%s' fileOff=0x5EDA28
+  rva=0x5EEA28 va=0x1405EEA28
+  qword xrefs: 0
+  rip-lea va=0x1400662D7 modrm=0x15
+       0x1400662B7 je short 00000001400662DDh
+       0x1400662B9 adc [rdi+48h],dl
+       0x1400662BC sub esp,30h
+       0x1400662BF mov rsi,r8
+       0x1400662C2 test r8,r8
+       0x1400662C5 mov r8,[1406EBE10h]
+       0x1400662CC mov rbx,rdx
+       0x1400662CF mov rdi,rcx
+       0x1400662D2 mov r9,rdx
+       0x1400662D5 je short 00000001400662EAh
+    >> 0x1400662D7 lea rdx,[1405EEA28h]
+       0x1400662DE mov [rsp+20h],rsi
+       0x1400662E3 call 0000000140039D30h
+       0x1400662E8 jmp short 00000001400662F6h
+       0x1400662EA lea rdx,[1405EEA38h]
+       0x1400662F1 call 0000000140039D30h
+       0x1400662F6 mov edx,7Eh
+       0x1400662FB mov rcx,rbx
+       0x1400662FE call 00000001405874A8h
+       0x140066303 cmp rax,rbx
+       0x140066306 jne short 0000000140066323h
+
+needle 'sound.cpp' fileOff=missing

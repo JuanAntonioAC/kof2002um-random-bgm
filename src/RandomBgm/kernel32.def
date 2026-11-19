@@ -1,0 +1,23 @@
+LIBRARY KERNEL32.dll
+EXPORTS
+    CloseHandle
+    CreateFileW
+    DeleteFileW
+    DisableThreadLibraryCalls
+    ExitProcess
+    GetCurrentThreadId
+    GetEnvironmentVariableW
+    GetFileAttributesExW
+    GetFileAttributesW
+    GetFileSize
+    GetFinalPathNameByHandleW
+    GetLastError
+    GetLocalTime
+    GetModuleFileNameW
+    GetModuleHandleW
+    GetStdHandle
+    LoadLibraryW
+    ReadFile
+    SetEnvironmentVariableW
+    VirtualProtect
+    WriteFile
